@@ -55,6 +55,9 @@
   font-size: 18px;
   color: #6b563d;
   text-shadow: 1px 1px #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 
   .Logo {
     font-size: 24px;
