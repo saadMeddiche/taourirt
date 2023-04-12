@@ -42,7 +42,7 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
     .Navbar {
   display: flex;
   justify-content: space-between;
@@ -56,7 +56,7 @@
   color: #6b563d;
   text-shadow: 1px 1px #ccc;
   position: sticky;
-  top: 0;
+  top: 0px;
   z-index: 999;
 
   .Logo {

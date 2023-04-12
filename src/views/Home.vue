@@ -58,7 +58,7 @@
         }
     }
 </script>
-<style lang="scss" scoped>
+<style lang="scss" >
     .Fact {
         width: 100%;
   margin: 10px;
