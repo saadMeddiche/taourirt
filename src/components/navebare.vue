@@ -20,7 +20,7 @@
                     'Home':      {name: 'Home',      active:false},
                     'History':   {name: 'History',   active:false},
                     'Economy':   {name: 'Economy',   active:false},
-                    'Traditions':{name: 'Traditions',active:false},
+                    // 'Traditions':{name: 'Traditions',active:false},
                 },
                 showLinks: true
 

@@ -12,14 +12,13 @@
 </script>
 <style lang="scss">
   body {
-  background-color: #f5deb3; /* light beige */
-  background-position: center center;
+  background-color: #f5deb3;
   font-size: 16px;
   line-height: 1.5;
   padding: 50px; 
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
   border: 1px solid rgba(0, 0, 0, 0.2); 
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 

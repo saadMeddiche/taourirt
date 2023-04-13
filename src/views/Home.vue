@@ -2,13 +2,10 @@
     <div class="Holder">
         <div class="Fact">
             <div class="Title">
-                <h2>Quick facts about Taourirt</h2>
+                <h2>Faits en bref sur Taourirt</h2>
             </div>
             <div class="Content">
-                <h5>Taourirt Province is in the northern part of Morocco.
-                Situated in the Oriental region about 100 km west to the city of Oujda.
-                The town is important as a transport link: the main east-west railway from 
-                Casablanca - Rabat - Fez in the west to Oujda in the east runs through Taourirt.</h5>
+                <h5>La Province de Taourirt est située dans la partie nord du Maroc, dans la région de l'Oriental, à environ 100 km à l'ouest de la ville d'Oujda. La ville de Taourirt occupe une position stratégique en tant que plaque tournante des transports dans la région. En effet, la ville est traversée par la principale ligne de chemin de fer est-ouest reliant Casablanca, Rabat et Fès à l'ouest à Oujda à l'est, ce qui en fait un point de passage clé pour les voyageurs et les marchandises.</h5>
             </div>
         </div>
     </div>
@@ -24,10 +21,10 @@
         </div>
         <div class="Fact">
             <div class="Title">
-                <h2>Statistics Of Taourirt</h2>
+                <h2>Statistiques de Taourirt</h2>
             </div>
             <div class="Content">
-                <h5>The Population Of Taourirt Province in 2004 Was 206,762. Also, the Area of Taourirt Province Is	7,432.3 km²</h5>
+                <h5>La population de la province de Taourirt en 2004 était de 206 762. De plus, la superficie de la province de Taourirt est de 7 432,3 km²</h5>
             </div>
         </div>
         <div class="Card" v-for="(Card , key) in Cards.slice(3,7)" :key="key">
