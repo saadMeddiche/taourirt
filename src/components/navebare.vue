@@ -6,7 +6,7 @@
         </div>
         <button class="ToggleBtn" @click="showLinks = !showLinks"></button>
         <div class="Links" v-show="showLinks">
-            <router-link v-for="(Link , key) in Links" :key="key" :to="{name : Link.name}" class="Link" :class="{ active : Link.active}">{{Link.name}}</router-link>
+            <router-link v-for="(Link , key) in Links" :key="key" :to="{name : key}" class="Link" :class="{ active : Link.active}">{{Link.name}}</router-link>
         </div>
 
     </div>
@@ -17,9 +17,9 @@
         data(){
             return {
                 Links:{
-                    'Home':      {name: 'Home',      active:false},
-                    'History':   {name: 'History',   active:false},
-                    'Economy':   {name: 'Economy',   active:false},
+                    'Home':      {name: 'Accueil',      active:false},
+                    'History':   {name: 'Histoire',   active:false},
+                    'Economy':   {name: 'Économie',   active:false},
                     // 'Traditions':{name: 'Traditions',active:false},
                 },
                 showLinks: true
